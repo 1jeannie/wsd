@@ -25,7 +25,7 @@ aside {
 	border: 2px solid #333;
 	background-color: #ffff99;
 }
-#bodycontent, ul, li {
+ul, li, img {
 	display: inline;
 }
 
