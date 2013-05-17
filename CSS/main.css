@@ -14,7 +14,8 @@ h2 {
 	font: italic bold 18px arial sans-serif
 }
 ul, li {
-	list-style-type: none
+	list-style-type: none;
+	display: inline;
 }
 
 	
