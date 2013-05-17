@@ -25,9 +25,8 @@ aside {
 	border: 2px solid #333;
 	background-color: #ffff99;
 }
-#bodycontent {
-	-moz-column-count: 3;
-	-moz-column-gap: 15px;
+aside, ol, li {
+	display: block;
 }
 
 	
