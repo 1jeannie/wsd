@@ -53,7 +53,15 @@
 					<li><a href= "images/mom.jpg" title= "mom and daughter in the wild"><img src= "images/mom.jpg" width= "100" height= "100"
 					alt= " a pair of barred owls"></a></li>
 					<li><a href= "images/mjuvenile.jpg"><img src= "images/mjuvenile.jpg" width= "100" height= "100"
-					alt= " a juvenile male barred owl"></a><li>
+					alt= " a juvenile male barred owl"></a></li>
+					<li><a href= "images/blueheron.jpg" title= "blue heron at cockroach bay"><img src= "images/blueheron.jpg" width= "100" 
+					height= "100" alt= "blue heron in the wild"></a></li>
+					<li><a href= "images/woodpecker.jpg" title= "family of woodpeckers"><img src= "images/woodpecker.jpg" width= "100" height= "100"
+					alt= "woodpecker family"></a></li>
+					<li><a href= "images/grayfox.jpg" title= "juvenile gray fox"><img src= "images/grayfox.jpg" width= "100" height= "100"
+					alt= "juvenile gray fox"></a></li>
+					<li><a href= "images/chassawitska.jpg" title= "snorkelers"><img src= "images/chassawitska.jpg" width= "100" height= "100"
+					alt= "snorkelers enjoy the river"></a></li>
 				</ul>
 			</div>
 		<nav>
@@ -66,17 +74,98 @@
 					<li> <a href= "filename.html" >floridabirdsofprey.com</a></li>
 					<li> <a href= "filename.html" >birdwatching.com</a></li>
 					<li> <a href= "filename.html" >allaboutbirds.org</a></li>
+					<li> <a href= "filename.html" >myfwc.com</a></li>
+					<li> <a href= "filename.html" >floridastateparks.org</a></li>
+					<li> <a href= "filename.html" >floridabirdingtrail.com</a></li>
+					<li> <a href= "filename.html" >floridasprings.org</a></li>
+					<li> <a href= "filename.html" >wildflorida.com</a></li>
 				</ol>
 			</aside>
 		</nav>
-		<div class= "form and button">
-			<div id= "form">
-				<p> This is where the form Goes </p>
+	<section class= "table" >
+		<h3> Places of Interest </h3>
+		<table>
+			<tr>
+				<th> Facility Name </th>
+				<th> Location </th>
+				<th> Known For </th>
+			</tr>
+			<tr>
+				<td> Teco Viewing Center </td>
+				<td> Apollo Beach, FL </td>
+				<td> Manatees </td>
+			</tr>
+			<tr>
+				<td> Big Cypress Preserve </td>
+				<td> South Florida </td>
+				<td> Cypress Wetland </td>
+			</tr>
+			<tr>
+				<td> Big Shoals St. Park </td>
+				<td> White Springs, FL </td>
+				<td> Suwannee River </td>
+			</tr>
+			<tr>
+				<td> Bahia Honda St. Park </td>
+				<td> Florida Keys </td>
+				<td> Wading Birds </td>
+			</tr>
+			<tr>
+				<td> Homosassa wildlife </td>
+				<td> Citrus County, FL </td>
+				<td> Rescued FL Wildlife </td>
+			</tr>
+			<tr>
+				<td> Lettuce Lake </td>
+				<td> Temple Terrace, FL </td>
+				<td> Alligators </td>
+			</tr>
+		</table>
+	</section>
+	<section class= "form" >
+		<h3> Sign-up for the Free Monthly Newsletter! </h3>
+		<p> Get photo tips, recent sightings, trip planning,
+			maps, and more! </p>
+		<form method= "post" action= "index.html" >
+			<div>
+				<label for= "name_first" > First Name </label>
+				<input type= "text" name= "name_first" id= "name_first" />
 			</div>
-			<div id= "button">
-				<p><input type= "submit" value= "Get The Newsletter"/></p>
+			<div>
+				<label for= "last_name" > Last Name </label>
+				<input type= "text" name= "last_name" id= "last_name" />
 			</div>
-		</div>
+			<div>
+				<label for= "email" > Email </label>
+				<input type= "text" name= "email" id= "email" />
+			</div>
+			<div>
+				<label for= "phone" > Phone </label>
+				<input type= "text" name= "phone" id= "phone" />
+			</div>
+			<div>
+				<label for= "areas_of_interest" > Areas of Interest </label>
+			</div>
+			<div>
+				<select name= "areas_of_interest" id= "areas_of_interest" >
+					<option> Birds of Prey </option>
+					<option> Land Birds </option>
+					<option> Wading Birds </option>
+					<option> Plants </option>
+					<option> Coastal Wetlands </option>
+					<option> Springs and Rivers </option>
+					<option> All Areas </option>
+				</select>
+			</div>
+			<div id= "box">
+				<input type= "checkbox" name= "updates_specials" id= "updates_specials" />
+				<p> Yes, send me updates and special offers. </p>
+			</div>
+			<div>
+				<button type= "submit" name= "submit" class= "button" > Get the Newsletter! </button>
+			</div>
+		</form>
+	</section>
 		<footer>
 			<h4> Site and Contact Info </h4>
 			<p> All photo's on this site are the exclusive property of the author. &copy;2013
